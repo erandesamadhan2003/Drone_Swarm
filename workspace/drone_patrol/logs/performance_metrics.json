@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-02-14T06:04:46.417801",
+  "algorithms": {
+    "EN-MASCA (Enhanced)": {
+      "name": "EN-MASCA (Enhanced)",
+      "avg_altitude": 50.0,
+      "altitude_std": 0.0,
+      "avg_inter_drone_distance": 2.7647398350107744,
+      "min_inter_drone_distance": 1.9120409231894855,
+      "avg_deviation_from_center": 1.7561874567496683,
+      "max_deviation_from_center": 2.4480982825617037,
+      "final_distance_to_target": 0.1372189005680084,
+      "computation_time": 0.29398417472839355
+    },
+    "Basic MASCA": {
+      "name": "Basic MASCA",
+      "avg_altitude": 50.0,
+      "altitude_std": 0.0,
+      "avg_inter_drone_distance": 2.8035068020894203,
+      "min_inter_drone_distance": 1.9505265638545293,
+      "avg_deviation_from_center": 1.793229957330017,
+      "max_deviation_from_center": 2.6434881300647683,
+      "final_distance_to_target": 41.09507516473754,
+      "computation_time": 0.2834916114807129
+    },
+    "Random Walk": {
+      "name": "Random Walk",
+      "avg_altitude": 49.16368201620289,
+      "altitude_std": 3.014184595223682,
+      "avg_inter_drone_distance": 7.323499920921206,
+      "min_inter_drone_distance": 0.4856993740381846,
+      "avg_deviation_from_center": 4.7541400076615945,
+      "max_deviation_from_center": 10.339894975109216,
+      "final_distance_to_target": 40.89225617123975,
+      "computation_time": 0.04440021514892578
+    }
+  }
+}

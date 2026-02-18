@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  drone_sim:
+    build: .
+    network_mode: host
+    environment:
+      - DISPLAY=:1
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - ../workspace:/workspace
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    stdin_open: true
+    tty: true
+
